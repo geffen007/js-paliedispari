@@ -16,7 +16,7 @@ if (palindromi) {
 }
 
 
-// la funzione invertiStringa inverte il dato inserito dall'utente e crea una nuova stringa
+// la funzione "invertiStringa" inverte il dato inserito dall'utente e crea una nuova stringa
 function invertiStringa (str) {
     var rts='';
     for (var i = str.length -1; i >= 0; i--) {
@@ -25,7 +25,7 @@ function invertiStringa (str) {
     return rts;
 }
 
-// la funzione confronta prima normalizza il dato togliendo eventuali maiuscole e poi confronta, se uguali ritorna TRUE
+// la funzione "confronta" prima normalizza il dato togliendo eventuali maiuscole e poi confronta, se uguali ritorna TRUE
 function confronta (a, b) {
     var confronto = true;
     if (a.toLowerCase() != b.toLowerCase()) {
