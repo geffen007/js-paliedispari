@@ -7,9 +7,14 @@ var alorap = invertiStringa (parola);
 // confrontiamo le parole con la funzione confronta
 var palindromi = confronta (parola, alorap);
 
-console.log(parola);
-console.log(alorap);
-console.log(palindromi);
+
+// Stampiamo
+if (palindromi) {
+    document.getElementById('risultato').innerHTML= "La parola da te inserita è palindroma";
+} else {
+    document.getElementById('risultato').innerHTML= "La parola da te inserita non è palindroma";
+}
+
 
 // la funzione invertiStringa inverte il dato inserito dall'utente e crea una nuova stringa
 function invertiStringa (str) {
